@@ -10,6 +10,6 @@ class sqlrepd::config {
             "puppet:///files/${hostgroup}${sqlrepd::params::config_file}",
             "puppet:///files/${domain}${sqlrepd::params::config_file}",
             "puppet:///files/global${sqlrepd::params::config_file}",
-        ].
+        ],
     }
 }
